@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+body {
+    background-image: url('./img/background.jpg');
+    background-size: 100%;
+}
+
+h2 {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    color: rgb(224, 131, 196);
+}
+
+p {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+    color: rgba(230, 176, 222, 0.911);
+}
+
+input {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 1.1em;
+    margin: auto;
+}
+
+.datars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+
+img {
+    height: 400px;
+    margin: auto;
+    border-radius: 3%;
+    border-style: solid;
+    border-color: hotpink;
+    box-shadow: lavender;
+}
+
+button {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 1.1em;
+    padding: 1%;
+}
+
+.botaors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+@media only screen and (max-width: 800px) {
+    #imagem-dia {
+        height: 200px;
+        min-width: 280px;
+        margin: auto;
+    }
+}

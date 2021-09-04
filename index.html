@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universo do Dia</title>
+    <script src="apod.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2> Descubra o universo do dia! </h2>
+    <p>Esta aplicação tem o objetivo de mostrar qual imagem foi capturada em determinada data. Para isso, escolha uma data a partir de 16/06/1995 e descubra o UNIVERSO DO DIA!
+    </p>
+    <p>Escolha uma data:</p>
+
+    <div class="datars">
+        <input type="date" id="data"></input>
+    </div>
+
+    <div id="container">
+        <img id="imagem-dia">
+        <iframe id="video-dia"></iframe>
+    </div>
+
+    <div class="botaors">
+        <button>Pesquisar</button>
+    </div>
+
+    <p>Sobre a imagem:</p>
+    <p id="sobre-img"></p>
+
+</body>
+
+</html>
