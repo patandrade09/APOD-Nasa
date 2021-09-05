@@ -66,7 +66,6 @@ function padrao() {
             imagemDia.style.display = 'none'
             video.style.display = 'flex'
 
-
         }
     }
     requisicao.send();
