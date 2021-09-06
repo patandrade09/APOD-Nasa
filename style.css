@@ -93,4 +93,9 @@ footer {
         min-width: 280px;
         margin: auto;
     }
+    #video-dia {
+        height: 200px;
+        min-width: 280px;
+        margin: auto;
+    }
 }
